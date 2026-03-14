@@ -80,6 +80,24 @@ The tool flags these common issues:
 - `uuid` → crypto.randomUUID() (Node 19+)
 - `colors` → chalk (security)
 
+## FAQ
+
+### What is a good health score?
+
+90+ is excellent. 70-89 is healthy. Below 70 means you have issues worth fixing. The score considers security, maintenance, and best practices.
+
+### Does it check for vulnerabilities?
+
+It flags known problematic packages but doesn't run a full vulnerability scan. Use `npm audit` alongside this tool for security checks.
+
+### Can I customize the rules?
+
+Not yet. Custom rule configuration is planned. Open an issue to request specific rules.
+
+### Why does it flag moment.js?
+
+moment.js is 300KB+ and in maintenance mode. Modern alternatives like dayjs (2KB) or date-fns (tree-shakable) are better for new projects.
+
 ## License
 
 MIT - Built by [LXGIC Studios](https://github.com/lxgicstudios)
