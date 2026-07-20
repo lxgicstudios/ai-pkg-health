@@ -2,6 +2,15 @@
 
 Analyze your package.json health. Find issues, get recommendations, optimize dependencies.
 
+
+## Works With
+
+- 🤖 Claude / Claude Code
+- 🔵 Cursor
+- 💚 GPT / ChatGPT
+- ⚡ Copilot
+- 🧩 MCP servers
+
 ## Install & Run
 
 ```bash

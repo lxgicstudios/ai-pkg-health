@@ -14,7 +14,14 @@
     "ai",
     "cli",
     "audit",
-    "optimize"
+    "optimize",
+    "developer-tools",
+    "devtools",
+    "security",
+    "automation",
+    "code-quality",
+    "maintenance",
+    "typescript"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
